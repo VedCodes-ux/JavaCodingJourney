@@ -1,3 +1,4 @@
+package folder;
 class node{
     int data;
     node next;

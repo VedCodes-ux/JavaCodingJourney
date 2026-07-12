@@ -1,4 +1,4 @@
-package JavaCodingJourney;
+package folder;
 
 public class permutation {
     public static void main(String[] args) {

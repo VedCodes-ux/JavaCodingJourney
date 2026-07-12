@@ -1,4 +1,4 @@
-package JavaCodingJourney;
+package folder;
 
 public class quicksort {
     public static int partition(int [] arr,int si ,int ei) {

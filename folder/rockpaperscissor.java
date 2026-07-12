@@ -1,4 +1,4 @@
-package JavaCodingJourney;
+package folder;
 
 import java.util.Scanner;
 import java.util.Random;

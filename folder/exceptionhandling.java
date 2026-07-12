@@ -1,3 +1,4 @@
+package folder;
 
 class BookUnavailableException extends Exception{
     public BookUnavailableException(String message){
