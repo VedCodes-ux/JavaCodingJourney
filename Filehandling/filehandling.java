@@ -1,11 +1,13 @@
 package Filehandling;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -53,6 +55,24 @@ public class filehandling {
             // TODO: handle exception
             System.out.println(e);
         }
+
+        // buffered writer
+        FileWriter fw = new FileWriter("anushka.txt");
+        
+
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write("hello");
+        bw.newLine();
+        bw.write("java backend");
+        bw.close();
+
+
+        // Print writer
+        PrintWriter pw = new PrintWriter("anushka.txt");
+        pw.println("Hello");
+        pw.println("Hello");
+        pw.println("Hello");
+        pw.close();
 
 
 
